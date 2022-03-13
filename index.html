@@ -1,18 +1,281 @@
 <html>
   <head>
     <title>Caesar Cypher</title>
-    <script src="script.js"></script>
+    <style>
+      div {
+        float:left
+      }
+    </style>
   </head>
   <body>
-    <div id="demo"></div>
-    <form>
-      image: <input enctype = "multipart/form-data" type = "file"><br>
-      하양: <input type = "text"><br>
-      파랑: <input type = "text"><br>
-      보라: <input type = "text"><br>
-      회색: <input type = "text"><br>
-      초록: <input type = "text"><br>
-      <input type = "submit">
-    </form>
+    <div>
+    <table>
+      <tr>
+        <td>id</td>
+        <td>image</td>
+        <td>하양</td>
+        <td>파랑</td>
+        <td>보라</td>
+        <td>회색</td>
+        <td>초록</td>
+      </tr>
+      <tr id="0">
+        <td id="child_id">id</td>
+        <td><image src="./img0.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="1">
+        <td id="child_id">id</td>
+        <td><image src="./img1.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="2">
+        <td id="child_id">id</td>
+        <td><image src="./img2.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="3">
+        <td id="child_id">id</td>
+        <td><image src="./img3.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="4">
+        <td id="child_id">id</td>
+        <td><image src="./img4.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="5">
+        <td id="child_id">id</td>
+        <td><image src="./img5.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="6">
+        <td id="child_id">id</td>
+        <td><image src="./img6.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="7">
+        <td id="child_id">id</td>
+        <td><image src="./img7.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="8">
+        <td id="child_id">id</td>
+        <td><image src="./img8.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="9">
+        <td id="child_id">id</td>
+        <td><image src="./img9.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="10">
+        <td id="child_id">id</td>
+        <td><image src="./img10.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="11">
+        <td id="child_id">id</td>
+        <td><image src="./img11.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="12">
+        <td id="child_id">id</td>
+        <td><image src="./img12.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="13">
+        <td id="child_id">id</td>
+        <td><image src="./img13.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="14">
+        <td id="child_id">id</td>
+        <td><image src="./img14.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="15">
+        <td id="child_id">id</td>
+        <td><image src="./img15.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="16">
+        <td id="child_id">id</td>
+        <td><image src="./img16.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="17">
+        <td id="child_id">id</td>
+        <td><image src="./img17.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="18">
+        <td id="child_id">id</td>
+        <td><image src="./img18.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="19">
+        <td id="child_id">id</td>
+        <td><image src="./img19.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="20">
+        <td id="child_id">id</td>
+        <td><image src="./img20.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="21">
+        <td id="child_id">id</td>
+        <td><image src="./img21.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="22">
+        <td id="child_id">id</td>
+        <td><image src="./img22.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="23">
+        <td id="child_id">id</td>
+        <td><image src="./img23.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="24">
+        <td id="child_id">id</td>
+        <td><image src="./img24.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+      <tr id="25">
+        <td id="child_id">id</td>
+        <td><image src="./img25.jpg"></image></td>
+        <td id="c1">-</td>
+        <td id="c2">-</td>
+        <td id="c3">-</td>
+        <td id="c4">-</td>
+        <td id="c5">-</td>
+      </tr>
+    </table>
+    </div>
+    <div id="edit">
+      수정<br>
+      id: <input id="edit_id" type="text"><br>
+      하양: <input id="edit_c1" type="text"><br>
+      파랑: <input id="edit_c2" type="text"><br>
+      보라: <input id="edit_c3" type="text"><br>
+      회색: <input id="edit_c4" type="text"><br>
+      초록: <input id="edit_c5" type="text"><br>
+      <button id="edit_button">수정</button>
+    </div>
+    <div id="test">
+      테스트: <input id="testInput" type="text"><br>
+      <button id="test_button">테스트</button>
+    </div>
+    <div id="result">
+      하양: <div id="result_1"></div><br>
+      파랑: <div id="result_2"></div><br>
+      보라: <div id="result_3"></div><br>
+      회색: <div id="result_4"></div><br>
+      초록: <div id="result_5"></div><br>
+    </div>
   </body>
+  <script src="./script.js"></script>
 </html>
